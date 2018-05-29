@@ -1,0 +1,27 @@
+UC1: Virtual Reality Mission Simulator 
+A multi-player game, or military mission training simulator, such as conformant to the OGC CDB standard, presents a 3D environment with a complex orography, which may alter over time (e.g. shell craters) and various 'actors' (moving features) on the surface, in the air or even underwater. difrerent players may have different views of exactly the same feature, not jst from a difrering viewpoint, with the attendant different shadings, perspectives and orientations, but also differng visibilty because of viewing via radar, sonar, or infrared goggles. 
+
+These features may be labelled, either with plain 1D text string, or a small 2D image icon or even video loop (3D: x,y,t), all orientated towards each viewer. The labels may appear to be co-located with the feature, or connected with some 'call-out' arrow or tooltip, or a 3D (x,y,z) representation, or some other form of highlighting.
+
+Such a simulation could also creates a 2D horizontal map (x,y), for each player, summarising their local environment. 
+
+Vertical cross sections, in any horizontal direction, could also be produced to help with understanding line-of-sight issues.
+
+A more global 2D map could also be produced for any simulation controller, by projecting the relevant features onto a quasi -horizontal surface, for post-event analysis.
+
+
+UC2: Artillery Ballistic Profile
+To improve the accuracy of ballistic ('dumb') artillery shells, weather forecasts and analyses (zero hour forecasts) of wind velocity, temperature and humidity are created as a 4D weather data cube. A vertical cross-section of the parameters is extracted along the straight line between gun and target, over an intervening range of hills.
+
+The cross section of the parameters is then used to calculate the optimal gun elevation. Different elevations may have different error characteristics because of, for example, the diffrent wind speeds at different altitudes.
+
+If the time of flight is significant, such as a few minutes, there may be changes in some parameters, so the cross section has a time dependency. 
+
+As the client artillery application may be across a limited bandwidth link, only a small subset of the data cube, or a visualisaton of the extracted data, is required and sent. Different cross sections for different gun and target locations are required.
+
+UC3: Augmented Reality portrayal of weather for Hang Gliders and Balloonists
+The pilot is wearing an Augmented Reality (AR) visor, to enable both hands to be free. The current wind, at multiple levels, is projected onto the visor, enabling the pilot to avoid ppotentially dangerous 'rotors' and vertical wave descending motions caused by steep orography.
+
+The AR visualisation allows allows the pilot to steer towards distant ascending thermals.
+
+If the pilots looks directly down, he sees traditional labelled 2D map features.
